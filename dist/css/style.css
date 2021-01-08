@@ -206,6 +206,7 @@ header {
     margin-top: 30px;
     border-radius: 15px;
 }
+
 #box--position .lien--menu .figure--resto {
     margin: 0px;
     width: 350px;
@@ -213,6 +214,7 @@ header {
     border-radius: 15px;
     position: relative;
 }
+
 #box--position .lien--menu .figure--resto img {
     width: 350px;
     height: 180px;
