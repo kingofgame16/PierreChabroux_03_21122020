@@ -358,6 +358,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.menu--titre p {
+  font-family: "Shrikhand";
+}
+
 body {
   margin: 0;
   -webkit-user-select: none;
@@ -698,7 +702,6 @@ header {
 
 .menu--titre p {
   font-size: 1.7rem;
-  font-family: "Shrikhand";
   margin: 30px auto;
 }
 
