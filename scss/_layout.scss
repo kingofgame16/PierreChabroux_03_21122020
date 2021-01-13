@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     margin: 0;
     
     user-select: none;
@@ -240,6 +239,24 @@ body {
   position: absolute;
   left: 10px;
   top: 18px;
+}
+
+#empty-heart {
+  position: relative;
+  margin: auto;
+  font-size: 1.7rem;
+  width: 20px;
+  height: 25px;
+}
+#empty-heart::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 100;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 .conteneurD {
