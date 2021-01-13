@@ -40,13 +40,13 @@ main {
    * `article` contexts in Chrome, Firefox, and Safari.
    */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
 /* Grouping content
@@ -627,6 +627,20 @@ header {
   margin-left: 10px;
 }
 
+.figcaption--titre--3 {
+  line-height: 10px;
+  margin-left: 10px;
+  margin-right: 44px;
+}
+
+.figcaption--resto i {
+  margin-right: 20px;
+  font-size: 1.7rem;
+  -webkit-transition: color 20ms ease-in-out;
+  transition: color 20ms ease-in-out;
+  color: black;
+}
+
 .en-tete {
   display: inline;
 }
@@ -747,5 +761,57 @@ footer {
   opacity: 0.9;
   -webkit-box-shadow: 0px 10px 5px lightgrey;
           box-shadow: 0px 10px 5px lightgrey;
+}
+
+.heart {
+  background-color: white;
+  height: 12px;
+  position: relative;
+  top: 225px;
+  right: 28px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  width: 12px;
+  cursor: pointer;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  height: 12px;
+  position: absolute;
+  width: 12px;
+}
+
+.heart:before {
+  top: -8px;
+  left: 0;
+}
+
+.heart:after {
+  left: 8px;
+  top: 0;
+}
+
+.heart:hover {
+  display: inline-block;
+  -webkit-animation: heart 500ms linear forwards;
+          animation: heart 500ms linear forwards;
+  background: linear-gradient(173deg, #ff79da 0%, #d66cdb 39%, #ab5edc 85%, #9b59dc 100%);
+}
+
+.heart:hover::after {
+  -webkit-animation: heart 300ms linear forwards;
+          animation: heart 300ms linear forwards;
+  background: linear-gradient(173deg, #ff79da 0%, #d66cdb 39%, #ab5edc 85%, #9b59dc 100%);
+}
+
+.heart:hover::before {
+  -webkit-animation: heart 100ms linear forwards;
+          animation: heart 100ms linear forwards;
+  background: #d66cdb 39%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+//coeur page d'acceuil
+
+.heart {
+    background-color: white;
+    height: 12px;
+    position: relative;
+    top: 225px;
+    right: 28px;
+    transform: rotate(-45deg);
+    position: absolute;
+    width: 12px;
+    cursor: pointer;
+}
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    height: 12px;
+    position: absolute;
+    width: 12px;
+}
+.heart:before {
+    top: -8px;
+    left: 0;
+    
+}
+
+.heart:after {
+    left: 8px;
+    top: 0;
+}
+.heart:hover {
+    display: inline-block;
+    animation: heart 500ms linear forwards;
+    background: linear-gradient(
+        173deg,
+        rgba(255, 121, 218, 1) 0%,
+        rgba(214, 108, 219, 1) 39%,
+        rgba(171, 94, 220, 1) 85%,
+        rgba(155, 89, 220, 1) 100%
+    );
+    
+}
+.heart:hover::after {
+    animation: heart 300ms linear forwards;
+    background: linear-gradient(
+        173deg,
+        rgba(255, 121, 218, 1) 0%,
+        rgba(214, 108, 219, 1) 39%,
+        rgba(171, 94, 220, 1) 85%,
+        rgba(155, 89, 220, 1) 100%
+    );
+}
+.heart:hover::before {
+    animation: heart 100ms linear forwards;
+    background:         rgba(214, 108, 219, 1) 39%;
+}
