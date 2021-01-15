@@ -709,7 +709,7 @@ header {
   background: #f9f9f9;
 }
 
-.conteneur--entrees .entrees {
+.menu--titre .conteneur--entrees .entrees {
   border-bottom: 3px solid #99e2d0;
   padding-bottom: 3px;
   font-weight: 100;
@@ -718,33 +718,33 @@ header {
   background: #f9f9f9;
 }
 
-footer {
+.menu--titre footer {
   background: #363636;
   color: white;
   padding: 15px 0px 15px 0px;
   min-width: 375px;
 }
 
-#Footer {
+.menu--titre #Footer {
   margin-left: 6%;
   line-height: 12px;
 }
 
-#Footer .footer--titre {
+.menu--titre #Footer .footer--titre {
   margin-bottom: 30px;
   font-size: 1.3rem;
   font-family: "Shrikhand";
 }
 
-.footer-text i {
+.menu--titre .footer-text i {
   margin-right: 10px;
 }
 
-.fa-hands-helping {
+.menu--titre .fa-hands-helping {
   font-size: 0.7rem;
 }
 
-.lien--footer {
+.menu--titre .lien--footer {
   color: white;
 }
 
@@ -845,8 +845,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 44px;
-  right: 26px;
+  top: 42px;
+  right: 43px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
@@ -949,8 +949,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 44px;
-  right: 40px;
+  top: 41px;
+  right: 33px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
@@ -1001,8 +1001,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 44px;
-  right: 28px;
+  top: 42px;
+  right: 48px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
