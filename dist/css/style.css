@@ -50,6 +50,11 @@ h2 {
   font-weight: 100;
 }
 
+h3 {
+  font-size: 1.7rem;
+  margin-left: 15px;
+}
+
 /* Grouping content
      ========================================================================== */
 /**
@@ -359,6 +364,10 @@ body {
 }
 
 .menu--titre p {
+  font-family: "Shrikhand";
+}
+
+h3 {
   font-family: "Shrikhand";
 }
 
@@ -700,11 +709,6 @@ header {
   background: #f9f9f9;
 }
 
-.menu--titre p {
-  font-size: 1.7rem;
-  margin: 30px auto;
-}
-
 .conteneur--entrees .entrees {
   border-bottom: 3px solid #99e2d0;
   padding-bottom: 3px;
@@ -893,8 +897,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 44px;
-  right: 24px;
+  top: 42px;
+  right: 40px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
