@@ -1,0 +1,30 @@
+.box--plats:hover {
+    display: block;
+    overflow: hidden;
+  }
+  .box--plats:hover .figcaption--plat {
+    display: inline-block;
+    animation: box 400ms linear;
+  }
+  .box--plats:hover .figcaption--plat .validation--logo i {
+    animation: validate 400ms linear;
+  }
+  
+  .box--plats:not(:hover) {
+    overflow: hidden;
+  }
+  
+  .box--plats:hover .plat--soustitre--long {
+    width: 260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .box--plats:hover .plat--prix {
+    animation: box 400ms linear;
+  }
+  
+  .plat--prix {
+    animation: boxReverse 400ms linear both;
+  }

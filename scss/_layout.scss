@@ -339,6 +339,30 @@ body {
   animation: boxReverse 400ms linear both;
 }
 
+.figcaption--plat {
+  width: 80px;
+  position: relative;
+  border-radius: 0 10px 10px 0px;
+  margin-top: -20px;
+  margin-right: -1px;
+  background: #99e2d0;
+  margin-bottom: -1px;
+  animation: boxReverse 400ms linear both;
+}
+.validation--logo {
+  width: 28px;
+  height: 28px;
+  border: 1px solid white;
+  background: white;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 100px;
+}
+.validation--logo i {
+  color: #99e2d0;
+  margin-left: 6px;
+  margin-top: 6px;
+}
 
 //footer//
 

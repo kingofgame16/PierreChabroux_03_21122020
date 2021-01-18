@@ -774,6 +774,34 @@ header {
           animation: boxReverse 400ms linear both;
 }
 
+.figcaption--plat {
+  width: 80px;
+  position: relative;
+  border-radius: 0 10px 10px 0px;
+  margin-top: -20px;
+  margin-right: -1px;
+  background: #99e2d0;
+  margin-bottom: -1px;
+  -webkit-animation: boxReverse 400ms linear both;
+          animation: boxReverse 400ms linear both;
+}
+
+.validation--logo {
+  width: 28px;
+  height: 28px;
+  border: 1px solid white;
+  background: white;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 100px;
+}
+
+.validation--logo i {
+  color: #99e2d0;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
 footer {
   background: #363636;
   color: white;
@@ -1103,5 +1131,42 @@ footer {
   -webkit-animation: heart 100ms linear forwards;
           animation: heart 100ms linear forwards;
   background: #d66cdb 39%;
+}
+
+.box--plats:hover {
+  display: block;
+  overflow: hidden;
+}
+
+.box--plats:hover .figcaption--plat {
+  display: inline-block;
+  -webkit-animation: box 400ms linear;
+          animation: box 400ms linear;
+}
+
+.box--plats:hover .figcaption--plat .validation--logo i {
+  -webkit-animation: validate 400ms linear;
+          animation: validate 400ms linear;
+}
+
+.box--plats:not(:hover) {
+  overflow: hidden;
+}
+
+.box--plats:hover .plat--soustitre--long {
+  width: 260px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.box--plats:hover .plat--prix {
+  -webkit-animation: box 400ms linear;
+          animation: box 400ms linear;
+}
+
+.plat--prix {
+  -webkit-animation: boxReverse 400ms linear both;
+          animation: boxReverse 400ms linear both;
 }
 /*# sourceMappingURL=style.css.map */
