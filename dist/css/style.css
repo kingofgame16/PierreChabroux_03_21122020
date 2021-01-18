@@ -744,7 +744,11 @@ header {
   position: relative;
 }
 
-.contenu--plat .plat--soustitre {
+.plat--long {
+  height: 54px;
+}
+
+.plat--soustitre {
   font-weight: 100;
   font-size: 0.9rem;
   width: 260px;
