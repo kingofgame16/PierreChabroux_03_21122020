@@ -1132,41 +1132,4 @@ footer {
           animation: heart 100ms linear forwards;
   background: #d66cdb 39%;
 }
-
-.box--plats:hover {
-  display: block;
-  overflow: hidden;
-}
-
-.box--plats:hover .figcaption--plat {
-  display: inline-block;
-  -webkit-animation: box 400ms linear;
-          animation: box 400ms linear;
-}
-
-.box--plats:hover .figcaption--plat .validation--logo i {
-  -webkit-animation: validate 400ms linear;
-          animation: validate 400ms linear;
-}
-
-.box--plats:not(:hover) {
-  overflow: hidden;
-}
-
-.box--plats:hover .plat--soustitre--long {
-  width: 260px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.box--plats:hover .plat--prix {
-  -webkit-animation: box 400ms linear;
-          animation: box 400ms linear;
-}
-
-.plat--prix {
-  -webkit-animation: boxReverse 400ms linear both;
-          animation: boxReverse 400ms linear both;
-}
 /*# sourceMappingURL=style.css.map */
