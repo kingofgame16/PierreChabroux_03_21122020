@@ -71,8 +71,17 @@ h4 {
 
 h5 {
   font-size: 1.7rem;
-  margin-left: 15px;
-  margin-bottom: 20px;
+  margin: 45px 0 0 15px;
+}
+
+h6 {
+  border-bottom: 3px solid #99e2d0;
+  padding-bottom: 3px;
+  font-weight: 100;
+  width: 40px;
+  margin: 40px 0 16px 15px;
+  font-size: 15px;
+  background: #f9f9f9;
 }
 
 /* Grouping content
@@ -658,7 +667,7 @@ header {
   margin: auto;
   font-size: 1.7rem;
   width: 20px;
-  height: 15px;
+  height: 0;
 }
 
 #empty-heart::before {
@@ -672,14 +681,14 @@ header {
   -webkit-font-smoothing: antialiased;
 }
 
-.conteneurD {
+.carte {
   width: 375px;
   margin: auto;
   background: #f9f9f9;
   padding-bottom: 20px;
 }
 
-.conteneurD img {
+.carte img {
   width: 375px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -921,7 +930,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 52px;
+  top: 50px;
   right: 43px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -973,7 +982,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 52px;
+  top: 50px;
   right: 40px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -1025,7 +1034,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 52px;
+  top: 50px;
   right: 72px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -1077,7 +1086,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 52px;
+  top: 50px;
   right: 48px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);

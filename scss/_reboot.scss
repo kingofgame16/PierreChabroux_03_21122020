@@ -72,9 +72,18 @@ h2 {
 
   h5{
     font-size: 1.7rem;
-    margin-left: 15px;
-    margin-bottom: 20px;
+    margin: 45px 0 0 15px;
   }
+
+  h6 {
+    border-bottom: 3px solid #99e2d0;
+    padding-bottom: 3px;
+    font-weight: 100;
+    width: 40px;
+    margin: 40px 0 16px 15px;
+    font-size: 15px;
+    background: #f9f9f9;
+}
   
   /* Grouping content
      ========================================================================== */

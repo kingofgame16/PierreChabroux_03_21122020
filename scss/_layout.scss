@@ -223,7 +223,7 @@
   margin: auto;
   font-size: 1.7rem;
   width: 20px;
-  height: 15px;
+  height: 0;
 }
 #empty-heart::before {
   content: "";
@@ -236,13 +236,13 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.conteneurD {
+.carte {
   width: 375px;
   margin: auto;
   background: #f9f9f9;
   padding-bottom: 20px;
 }
-.conteneurD img {
+.carte img {
   width: 375px;
   object-fit: cover;
   height: 300px;
