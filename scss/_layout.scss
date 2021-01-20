@@ -84,11 +84,6 @@ body {
     margin-left: 3%;
     margin-right: 3%;
   }
-  #conteneurB .conteneurB--titre {
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-top: 50px;
-  }
   
   .conteneurB--box {
     display: flex;
@@ -150,13 +145,6 @@ body {
     margin-top: 100px;
     background: #f9f9f9;
     padding-bottom: 100px;
-  }
-  #conteneurC .conteneurC--titre {
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-top: 50px;
   }
   
   #box--position {
@@ -244,7 +232,7 @@ body {
   margin: auto;
   font-size: 1.7rem;
   width: 20px;
-  height: 25px;
+  height: 15px;
 }
 #empty-heart::before {
   content: "";

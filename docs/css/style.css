@@ -67,6 +67,7 @@ h4 {
 h5 {
   font-size: 1.7rem;
   margin-left: 15px;
+  margin-bottom: 20px;
 }
 
 /* Grouping content
@@ -491,12 +492,6 @@ header {
   margin-right: 3%;
 }
 
-#conteneurB .conteneurB--titre {
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-top: 50px;
-}
-
 .conteneurB--box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -570,14 +565,6 @@ header {
   margin-top: 100px;
   background: #f9f9f9;
   padding-bottom: 100px;
-}
-
-#conteneurC .conteneurC--titre {
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding-top: 50px;
 }
 
 #box--position {
@@ -678,7 +665,7 @@ header {
   margin: auto;
   font-size: 1.7rem;
   width: 20px;
-  height: 25px;
+  height: 15px;
 }
 
 #empty-heart::before {
@@ -941,7 +928,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 42px;
+  top: 52px;
   right: 43px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -993,7 +980,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 42px;
+  top: 52px;
   right: 40px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -1045,7 +1032,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 41px;
+  top: 52px;
   right: 72px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -1097,7 +1084,7 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 42px;
+  top: 52px;
   right: 48px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
