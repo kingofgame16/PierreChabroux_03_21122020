@@ -1422,7 +1422,7 @@ footer {
   }
 }
 
-@-webkit-keyframes :valid {
+@-webkit-keyframes valid {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -1433,7 +1433,7 @@ footer {
   }
 }
 
-@keyframes :valid {
+@keyframes valid {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
