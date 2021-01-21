@@ -218,24 +218,6 @@
   top: 18px;
 }
 
-#empty-heart {
-  position: relative;
-  margin: auto;
-  font-size: 1.7rem;
-  width: 20px;
-  height: 0;
-}
-#empty-heart::before {
-  content: "";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 100;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
 .carte {
   width: 375px;
   margin: auto;
@@ -302,7 +284,7 @@
 .plat--prix {
   margin-top: 14px;
   margin-right: 2px;
-  animation: boxReverse 400ms linear both;
+  animation: Reverse 400ms linear both;
 }
 
 .figcaption--plat {
@@ -313,7 +295,7 @@
   margin-right: -1px;
   background: #99e2d0;
   margin-bottom: -1px;
-  animation: boxReverse 400ms linear both;
+  animation: Reverse 400ms linear both;
 }
 
 .figcaption--plat {
@@ -324,7 +306,7 @@
   margin-right: -1px;
   background: #99e2d0;
   margin-bottom: -1px;
-  animation: boxReverse 400ms linear both;
+  animation: Reverse 400ms linear both;
 }
 .validation--logo {
   width: 28px;
@@ -339,6 +321,35 @@
   color: #99e2d0;
   margin-left: 6px;
   margin-top: 6px;
+}
+
+.entrees--plat:hover {
+  display: block;
+  overflow: hidden;
+}
+
+.entrees--plat:hover .figcaption--plat {
+  display: inline-block;
+  animation: box 400ms linear;
+}
+
+.entrees--plat:hover .figcaption--plat .validation--logo i {
+  animation: validate 400ms linear;
+}
+
+.entrees--plat:not(:hover) {
+  overflow: hidden;
+}
+
+.entrees--plat:hover .soustitre--long {
+  width: 260px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.entrees--plat:hover .plat--prix {
+animation: box 400ms linear;
 }
 
 //footer//

@@ -58,6 +58,24 @@
 
 //coeur pages menu//
 
+#empty-heart {
+    position: relative;
+    margin: auto;
+    font-size: 1.7rem;
+    width: 20px;
+    height: 0;
+}
+#empty-heart::before {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 100;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
 .heart {
     background-color: white;
     height: 12px;
