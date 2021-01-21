@@ -80,112 +80,14 @@
     animation: menu 1.6s;
 }
 
+//encoche//
 
-//keyframes//
-@keyframes rotation {
-    0% {
-        transform: rotate(360deg);
-    }
-    20% {
-        opacity: 1;
-    }
-    30% {
-        opacity: 1;
-    }
-    80% {
-        opacity: 1;
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-@keyframes body {
-    0% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 0;
-    }
-    20% {
-        opacity: 0;
-    }
-    39% {
-        opacity: 0;
-    }
-    69% {
-        opacity: 0;
-    }
-    89% {
-        opacity: 0;
-    }
-    97% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@keyframes heart {
-    0% {
-        background: white;
-        opacity: 0;
-    }
-    30%{
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 01
-    }
-}
-@keyframes box {
-    from {
-        transform: translateX(72px);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-@keyframes Reverse {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(72px);
-    }
-}
-@keyframes validate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-@keyframes menu {
-    0% {
-        opacity: 0;
-        margin-top: 5px;
-    }
-    15% {
-        opacity: 0;
-    }
-    25% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    75% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
+.plat--prix {
+    animation: Reverse 400ms linear both;
 }
 
-
-
-
-
+.figcaption--plat {
+    animation: Reverse 400ms linear both;
+}
 
 

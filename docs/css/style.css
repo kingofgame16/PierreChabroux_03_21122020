@@ -737,10 +737,16 @@ header {
   height: 20px;
 }
 
+.entrees--plat:hover .soustitre--long {
+  width: 260px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .plat--prix {
   margin-top: 14px;
   margin-right: 2px;
-  animation: Reverse 400ms linear both;
 }
 
 .figcaption--plat {
@@ -751,18 +757,6 @@ header {
   margin-right: -1px;
   background: #99e2d0;
   margin-bottom: -1px;
-  animation: Reverse 400ms linear both;
-}
-
-.figcaption--plat {
-  width: 80px;
-  position: relative;
-  border-radius: 0 10px 10px 0px;
-  margin-top: -20px;
-  margin-right: -1px;
-  background: #99e2d0;
-  margin-bottom: -1px;
-  animation: Reverse 400ms linear both;
 }
 
 .validation--logo {
@@ -786,6 +780,10 @@ header {
   overflow: hidden;
 }
 
+.entrees--plat:not(:hover) {
+  overflow: hidden;
+}
+
 .entrees--plat:hover .figcaption--plat {
   display: inline-block;
   -webkit-animation: box 400ms linear;
@@ -793,19 +791,8 @@ header {
 }
 
 .entrees--plat:hover .figcaption--plat .validation--logo i {
-  -webkit-animation: validate 400ms linear;
-          animation: validate 400ms linear;
-}
-
-.entrees--plat:not(:hover) {
-  overflow: hidden;
-}
-
-.entrees--plat:hover .soustitre--long {
-  width: 260px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+  -webkit-animation: valid 400ms linear;
+          animation: valid 400ms linear;
 }
 
 .entrees--plat:hover .plat--prix {
@@ -1263,6 +1250,14 @@ footer {
           animation: menu 1.6s;
 }
 
+.plat--prix {
+  animation: Reverse 400ms linear both;
+}
+
+.figcaption--plat {
+  animation: Reverse 400ms linear both;
+}
+
 @-webkit-keyframes rotation {
   0% {
     -webkit-transform: rotate(360deg);
@@ -1427,7 +1422,7 @@ footer {
   }
 }
 
-@-webkit-keyframes validate {
+@-webkit-keyframes :valid {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -1438,7 +1433,7 @@ footer {
   }
 }
 
-@keyframes validate {
+@keyframes :valid {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
