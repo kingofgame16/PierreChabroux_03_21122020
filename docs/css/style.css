@@ -1515,4 +1515,20 @@ h1 {
     width: 270px;
   }
 }
+
+@media screen and (min-width: 376px) {
+  .carte {
+    background: white;
+  }
+  .carte img {
+    border-radius: 60%;
+    height: 350px;
+  }
+  .menu--titre {
+    border-radius: 0;
+    margin-top: 0px;
+    position: relative;
+    background: white;
+  }
+}
 /*# sourceMappingURL=style.css.map */
