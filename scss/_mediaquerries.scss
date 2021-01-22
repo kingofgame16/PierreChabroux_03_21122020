@@ -25,12 +25,12 @@
         text-align: center;
     }
 
-    #figure--position .lien--resto .figure--resto {
+    #box--position .lien--resto .figure--resto {
         width: 270px;
 
     }
 
-    #figure--position .lien--resto .figure--resto img{
+    #box--position .lien--resto .figure--resto img{
         width: 270px;
     }
 }
@@ -49,3 +49,18 @@
         background: white;
     }
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #box--position{
+        justify-content: space-between;
+    }
+}
+

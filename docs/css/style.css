@@ -1504,10 +1504,10 @@ h1 {
   h2 {
     text-align: center;
   }
-  #figure--position .lien--resto .figure--resto {
+  #box--position .lien--resto .figure--resto {
     width: 270px;
   }
-  #figure--position .lien--resto .figure--resto img {
+  #box--position .lien--resto .figure--resto img {
     width: 270px;
   }
 }
@@ -1525,6 +1525,20 @@ h1 {
     margin-top: 0px;
     position: relative;
     background: white;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  #box--position {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=style.css.map */
