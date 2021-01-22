@@ -1487,4 +1487,32 @@ footer {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 374px) {
+  header {
+    margin-left: 30px;
+  }
+  .section--global--page {
+    width: 375px;
+  }
+  .section--global .section--second--titre {
+    width: auto;
+  }
+  .Fonctionnement--box {
+    width: 210px;
+  }
+  #Fonctionnement
+h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  #figure--position .lien--resto .figure--resto {
+    width: 270px;
+  }
+  #figure--position .lien--resto .figure--resto img {
+    width: 270px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
