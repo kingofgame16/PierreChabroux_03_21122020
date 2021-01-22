@@ -64,3 +64,26 @@
     }
 }
 
+@media screen and (min-width: 900px) {
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #box--position{
+        justify-content: space-around;
+    }
+
+    body {
+        background: rgb(255,171,232);
+        background: linear-gradient(90deg, rgba(255,171,232,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 52%, rgba(255,255,255,1) 83%, rgba(213,165,244,1) 99%);
+    }
+
+    body .Fonctionnement {
+        background: rgb(255,171,232);
+        background: linear-gradient(90deg, rgba(255,171,232,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 52%, rgba(255,255,255,1) 83%, rgba(213,165,244,1) 99%);
+    }
+}

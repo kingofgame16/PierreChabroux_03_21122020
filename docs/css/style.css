@@ -1541,4 +1541,27 @@ h1 {
             justify-content: space-between;
   }
 }
+
+@media screen and (min-width: 900px) {
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  #box--position {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body {
+    background: #ffabe8;
+    background: -webkit-gradient(linear, left top, right top, from(#ffabe8), color-stop(20%, white), color-stop(52%, white), color-stop(83%, white), color-stop(99%, #d5a5f4));
+    background: linear-gradient(90deg, #ffabe8 0%, white 20%, white 52%, white 83%, #d5a5f4 99%);
+  }
+  body .Fonctionnement {
+    background: #ffabe8;
+    background: -webkit-gradient(linear, left top, right top, from(#ffabe8), color-stop(20%, white), color-stop(52%, white), color-stop(83%, white), color-stop(99%, #d5a5f4));
+    background: linear-gradient(90deg, #ffabe8 0%, white 20%, white 52%, white 83%, #d5a5f4 99%);
+  }
+}
 /*# sourceMappingURL=style.css.map */
