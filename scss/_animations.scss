@@ -83,11 +83,11 @@
 //encoche//
 
 .plat--prix {
-    animation: Reverse 400ms linear both;
+    animation: reverse 400ms linear both;
 }
 
-.figcaption--plat {
-    animation: Reverse 400ms linear both;
+.figcaption--plat:hover {
+    animation: reverse 400ms linear both;
 }
 
 
