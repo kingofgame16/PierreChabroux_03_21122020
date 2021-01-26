@@ -496,7 +496,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px auto auto auto;
+  margin: auto;
+  margin-top: 30px;
   width: 300px;
   padding: 12px;
   border-radius: 24px;
@@ -717,7 +718,6 @@ header {
           justify-content: space-between;
   margin-top: -27px;
   height: 40px;
-  position: relative;
 }
 
 .plat--long {
@@ -745,17 +745,17 @@ header {
 
 .figcaption--plat {
   width: 80px;
-  position: relative;
   border-radius: 0 10px 10px 0px;
   margin-top: -20px;
   margin-right: -1px;
   background: #99e2d0;
   margin-bottom: -1px;
+  animation: reverse 400ms linear both;
 }
 
 .validation--logo {
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   border: 1px solid white;
   background: white;
   margin: 17px auto auto auto;
@@ -764,8 +764,6 @@ header {
 
 .validation--logo i {
   color: #99e2d0;
-  margin-left: 6px;
-  margin-top: 6px;
 }
 
 .entrees--plat:hover {
@@ -828,6 +826,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   background: #f9f9f9;
+  min-width: 374px;
 }
 
 .box--btn--page {
@@ -1491,50 +1490,6 @@ footer {
   }
   100% {
     opacity: 1;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  header {
-    margin-left: 30px;
-  }
-  .section--global--page {
-    width: 375px;
-  }
-  .section--global .section--second--titre {
-    width: auto;
-  }
-  .Fonctionnement--box {
-    width: 210px;
-  }
-  #Fonctionnement
-h1 {
-    text-align: center;
-  }
-  h2 {
-    text-align: center;
-  }
-  #box--position .lien--resto .figure--resto {
-    width: 270px;
-  }
-  #box--position .lien--resto .figure--resto img {
-    width: 270px;
-  }
-}
-
-@media screen and (min-width: 376px) {
-  .carte {
-    background: white;
-  }
-  .carte img {
-    border-radius: 60%;
-    height: 350px;
-  }
-  .menu--titre {
-    border-radius: 0;
-    margin-top: 0px;
-    position: relative;
-    background: white;
   }
 }
 

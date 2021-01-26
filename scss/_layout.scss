@@ -76,7 +76,8 @@
   
   .Fonctionnement--box {
     display: flex;
-    margin: 30px auto auto auto;
+    margin: auto;
+    margin-top: 30px;
     width: 300px;
     padding: 12px;
     border-radius: 24px;
@@ -261,7 +262,6 @@
   justify-content: space-between;
   margin-top: -27px;
   height: 40px;
-  position: relative;
 }
 
 .plat--long{
@@ -289,17 +289,17 @@
 
 .figcaption--plat {
   width: 80px;
-  position: relative;
   border-radius: 0 10px 10px 0px;
   margin-top: -20px;
   margin-right: -1px;
   background: #99e2d0;
   margin-bottom: -1px;
+  animation: reverse 400ms linear both;
 }
 
 .validation--logo {
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   border: 1px solid white;
   background: white;
   margin: 17px auto auto auto;
@@ -308,8 +308,6 @@
 
 .validation--logo i {
   color: #99e2d0;
-  margin-left: 6px;
-  margin-top: 6px;
 }
 
 .entrees--plat:hover {
