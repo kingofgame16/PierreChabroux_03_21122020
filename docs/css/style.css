@@ -700,13 +700,14 @@ header {
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px 4px lightgrey;
           box-shadow: 0px 3px 4px lightgrey;
-  border: 1px solid white;
+  border: 0px solid white;
   cursor: pointer;
 }
 
 .entrees--plat .plat--titre {
   font-size: 1.1rem;
-  margin-top: 8px;
+  margin-top: 0px;
+  margin-bottom: 0;
 }
 
 .contenu--plat {
@@ -716,7 +717,6 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: -27px;
   height: 40px;
 }
 
@@ -729,6 +729,7 @@ header {
   font-size: 0.9rem;
   width: 260px;
   height: 20px;
+  margin-top: 10px;
 }
 
 .entrees--plat:hover .soustitre--long {
@@ -739,7 +740,7 @@ header {
 }
 
 .plat--prix {
-  margin-top: 14px;
+  margin-top: 10px;
   margin-right: 2px;
 }
 
@@ -747,9 +748,7 @@ header {
   width: 80px;
   border-radius: 0 10px 10px 0px;
   margin-top: -20px;
-  margin-right: -1px;
   background: #99e2d0;
-  margin-bottom: -1px;
   animation: reverse 400ms linear both;
 }
 
