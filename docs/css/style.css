@@ -531,10 +531,6 @@ header {
   font-size: 13px;
 }
 
-.box--3 {
-  background-color: rgba(147, 86, 220, 0.1);
-}
-
 #restaurant {
   margin-top: 100px;
   background: #f9f9f9;
@@ -799,11 +795,11 @@ footer {
 }
 
 #Footer {
-  margin-left: 6%;
+  margin-left: 20px;
   line-height: 12px;
 }
 
-#Footer .footer--titre {
+.footer--titre {
   margin-bottom: 30px;
   font-size: 1.3rem;
   font-family: "Shrikhand";
@@ -1504,6 +1500,16 @@ footer {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .box--footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer--titre {
+    margin-left: 18rem;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -1531,6 +1537,16 @@ footer {
     background: #ffabe8;
     background: -webkit-gradient(linear, left top, right top, from(#ffabe8), color-stop(20%, white), color-stop(52%, white), color-stop(83%, white), color-stop(99%, #d5a5f4));
     background: linear-gradient(90deg, #ffabe8 0%, white 20%, white 52%, white 83%, #d5a5f4 99%);
+  }
+  .box--footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer--titre {
+    margin-left: 44%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -131,10 +131,6 @@
     font-size: 13px;
   }
   
-  .box--3 {
-    background-color: rgba(147, 86, 220, 0.1);
-  }
-  
   #restaurant {
     margin-top: 100px;
     background: #f9f9f9;
@@ -373,10 +369,11 @@ animation: box 400ms linear;
   }
   
   #Footer {
-    margin-left: 6%;
+    margin-left: 20px;
     line-height: 12px;
   }
-  #Footer .footer--titre {
+  
+  .footer--titre {
     margin-bottom: 30px;
     font-size: 1.3rem;
     font-family: "Shrikhand";
