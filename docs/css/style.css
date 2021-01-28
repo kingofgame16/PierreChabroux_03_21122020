@@ -1507,6 +1507,11 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+  .box--fonctionnement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .titre--fonctionnement {
     text-align: center;
   }
