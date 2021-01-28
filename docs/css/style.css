@@ -45,43 +45,16 @@ main {
    * `article` contexts in Chrome, Firefox, and Safari.
    */
 h1 {
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-top: 40px;
-  margin-left: 3%;
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding-top: 50px;
-}
-
-h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-h4 {
-  font-size: 1.2rem;
-  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Shrikhand", sans-serif;
+  border-bottom: 1px solid white;
+  margin-top: 10px;
 }
 
 h5 {
   font-size: 1.7rem;
-  margin: 45px 0 0 15px;
-}
-
-h6 {
-  border-bottom: 3px solid #99e2d0;
-  padding-bottom: 3px;
-  font-weight: 100;
-  width: 40px;
-  margin: 40px 0 16px 15px;
-  font-size: 15px;
-  background: #f9f9f9;
+  margin: 30px auto;
 }
 
 /* Grouping content
@@ -492,6 +465,13 @@ header {
   margin-right: 3%;
 }
 
+.titre--fonctionnement {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-left: 3%;
+  margin-top: 50px;
+}
+
 .Fonctionnement--box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -566,6 +546,14 @@ header {
   padding-bottom: 100px;
 }
 
+.resto {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 50px;
+}
+
 #box--position {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -634,6 +622,16 @@ header {
   margin-left: 10px;
 }
 
+.titre--resto {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.soustitre--resto {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
 .figcaption--titre--3 {
   line-height: 10px;
   margin-left: 10px;
@@ -684,10 +682,17 @@ header {
   background: #f9f9f9;
 }
 
-.conteneur--entrees .entrees {
+.nom--resto {
+  font-size: 1.7rem;
+  margin: 30px auto;
+  font-family: "Shrikhand", sans-serif;
+}
+
+.conteneur--entrees {
   border-bottom: 3px solid #99e2d0;
   padding-bottom: 3px;
   font-weight: 100;
+  font-size: 15px;
   width: 40px;
   margin-left: 15px;
   background: #f9f9f9;
@@ -929,11 +934,10 @@ footer {
 }
 
 #empty-heart {
-  position: relative;
   margin: auto;
   font-size: 1.7rem;
   width: 20px;
-  height: 0;
+  height: 25px;
 }
 
 #empty-heart::before {
@@ -951,8 +955,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 50px;
-  right: 43px;
+  top: 44px;
+  right: 25px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
@@ -1003,8 +1007,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 50px;
-  right: 40px;
+  top: 44px;
+  right: 24px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
@@ -1055,8 +1059,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 50px;
-  right: 72px;
+  top: 44px;
+  right: 40px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
@@ -1107,8 +1111,8 @@ footer {
   background-color: white;
   height: 12px;
   position: relative;
-  top: 50px;
-  right: 48px;
+  top: 44px;
+  right: 28px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;

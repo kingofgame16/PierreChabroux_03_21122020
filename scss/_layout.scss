@@ -73,7 +73,14 @@
     margin-left: 3%;
     margin-right: 3%;
   }
-  
+
+  .titre--fonctionnement {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: 3%;
+    margin-top: 50px;
+  }
+
   .Fonctionnement--box {
     display: flex;
     margin: auto;
@@ -134,6 +141,14 @@
     background: #f9f9f9;
     padding-bottom: 100px;
   }
+
+  .resto {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 50px;
+}
   
   #box--position {
     display: flex;
@@ -190,6 +205,16 @@
     margin-left: 10px;
   }
 
+  .titre--resto{
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .soustitre--resto{
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+
   .figcaption--titre--3 {
     line-height: 10px;
     margin-left: 10px;
@@ -234,10 +259,17 @@
   background: #f9f9f9;
 }
 
-  .conteneur--entrees .entrees {
+.nom--resto{
+  font-size: 1.7rem;
+  margin: 30px auto;
+  font-family: "Shrikhand", sans-serif;
+}
+
+  .conteneur--entrees {
     border-bottom: 3px solid #99e2d0;
     padding-bottom: 3px;
     font-weight: 100;
+    font-size: 15px;
     width: 40px;
     margin-left: 15px;
     background: #f9f9f9;

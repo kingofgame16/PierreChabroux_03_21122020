@@ -46,44 +46,19 @@
   
   
   h1{
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-top: 40px;
-    margin-left: 3%;
-  }
-
-h2 {
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-top: 50px;
-  }
-
-  h3{
-    font-size: 1.3rem;
-    font-weight: 600;
-  }
-
-  h4{
-    font-size: 1.2rem;
-    font-weight: 100;
-  }
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Shrikhand", sans-serif;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+}
 
   h5{
     font-size: 1.7rem;
-    margin: 45px 0 0 15px;
+    margin: 30px auto;
   }
 
-  h6 {
-    border-bottom: 3px solid #99e2d0;
-    padding-bottom: 3px;
-    font-weight: 100;
-    width: 40px;
-    margin: 40px 0 16px 15px;
-    font-size: 15px;
-    background: #f9f9f9;
-}
+
   
   /* Grouping content
      ========================================================================== */
