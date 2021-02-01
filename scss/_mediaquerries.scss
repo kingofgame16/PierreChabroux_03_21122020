@@ -9,10 +9,6 @@
         text-align: center;
     }
 
-    #box--position{
-        justify-content: space-between;
-    }
-
     .box--footer {
         display: flex;
         justify-content: space-around;
@@ -27,6 +23,18 @@
 
     .box--fonctionnement {
         display: flex;
+    }
+
+    .carte {
+        width: 100%;
+    }
+
+    .box--plat {
+        display: flex;
+    }
+
+    .figcaption--plat {
+        height:80px;
     }
 
     .titre--fonctionnement {

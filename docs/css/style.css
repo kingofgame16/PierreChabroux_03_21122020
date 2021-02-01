@@ -1495,11 +1495,6 @@ footer {
   .resto {
     text-align: center;
   }
-  #box--position {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
   .box--footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1517,6 +1512,17 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .carte {
+    width: 100%;
+  }
+  .box--plat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .figcaption--plat {
+    height: 80px;
   }
   .titre--fonctionnement {
     text-align: center;
