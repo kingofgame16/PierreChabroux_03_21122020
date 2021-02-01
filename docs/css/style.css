@@ -1513,7 +1513,28 @@ footer {
     display: -ms-flexbox;
     display: flex;
   }
+  .nom--resto {
+    margin-left: 20rem;
+  }
+  #empty-heart {
+    margin-right: 20rem;
+  }
+  .heart {
+    right: 20rem;
+  }
+  .heart--two {
+    right: 20rem;
+  }
+  .heart--three {
+    right: 20rem;
+  }
+  .heart--four {
+    right: 20rem;
+  }
   .carte {
+    width: 100%;
+  }
+  .carte img {
     width: 100%;
   }
   .box--plat {
