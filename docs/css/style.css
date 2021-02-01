@@ -737,20 +737,9 @@ footer {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 5px 0;
-}
-
-.contenu--plat {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 40px;
-}
-
-.plat--long {
-  height: 54px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .plat--soustitre {
@@ -773,7 +762,7 @@ footer {
 }
 
 .figcaption--plat {
-  width: 80px;
+  width: 0;
   border-radius: 0 10px 10px 0px;
   margin-top: -20px;
   background: #99e2d0;
@@ -781,11 +770,8 @@ footer {
 }
 
 .validation--logo {
-  width: 20px;
-  height: 20px;
   border: 1px solid white;
   background: white;
-  margin: 17px auto auto auto;
   border-radius: 100px;
 }
 
