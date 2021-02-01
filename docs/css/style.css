@@ -746,13 +746,15 @@ footer {
   font-weight: 100;
   font-size: 0.9rem;
   margin: 0;
-}
-
-.entrees--plat:hover .soustitre--long {
-  width: 260px;
+  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+.titre-soustitre {
   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .plat--prix {
