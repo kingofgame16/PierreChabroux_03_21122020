@@ -455,15 +455,10 @@ header {
   background: #f9f9f9;
 }
 
-#Fonctionnement {
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
 .titre--fonctionnement {
   font-size: 1.5rem;
   font-weight: 900;
-  margin-left: 3%;
+  margin-left: 1rem;
   margin-top: 50px;
 }
 
@@ -540,8 +535,8 @@ header {
 .resto {
   font-size: 1.5rem;
   font-weight: 900;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding-top: 50px;
 }
 
@@ -637,6 +632,36 @@ header {
   color: black;
 }
 
+footer {
+  background: #363636;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  min-width: 375px;
+}
+
+#Footer {
+  margin-left: 20px;
+  line-height: 12px;
+}
+
+.footer--titre {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  font-family: "Shrikhand";
+}
+
+.footer-text i {
+  margin-right: 10px;
+}
+
+.fa-hands-helping {
+  font-size: 0.7rem;
+}
+
+.lien--footer {
+  color: white;
+}
+
 .en-tete {
   display: inline;
 }
@@ -691,20 +716,27 @@ header {
 
 .entrees--plat {
   background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 1rem;
-  padding-left: 5px;
+  padding: 1rem;
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px 4px lightgrey;
           box-shadow: 0px 3px 4px lightgrey;
   border: 0px solid white;
   cursor: pointer;
+  min-width: 300px;
+  max-width: 450px;
 }
 
 .entrees--plat .plat--titre {
   font-size: 1.1rem;
-  font-weight: 400;
-  margin-top: 0px;
-  margin-bottom: 0;
+  font-weight: 600;
+  margin: 0 0 5px 0;
 }
 
 .contenu--plat {
@@ -724,9 +756,7 @@ header {
 .plat--soustitre {
   font-weight: 100;
   font-size: 0.9rem;
-  width: 260px;
-  height: 20px;
-  margin-top: 10px;
+  margin: 0;
 }
 
 .entrees--plat:hover .soustitre--long {
@@ -737,8 +767,9 @@ header {
 }
 
 .plat--prix {
-  margin-top: 10px;
-  margin-right: 2px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
 }
 
 .figcaption--plat {
@@ -785,36 +816,6 @@ header {
 .entrees--plat:hover .plat--prix {
   -webkit-animation: box 400ms linear;
           animation: box 400ms linear;
-}
-
-footer {
-  background: #363636;
-  color: white;
-  padding: 15px 0px 15px 0px;
-  min-width: 375px;
-}
-
-#Footer {
-  margin-left: 20px;
-  line-height: 12px;
-}
-
-.footer--titre {
-  margin-bottom: 30px;
-  font-size: 1.3rem;
-  font-family: "Shrikhand";
-}
-
-.footer-text i {
-  margin-right: 10px;
-}
-
-.fa-hands-helping {
-  font-size: 0.7rem;
-}
-
-.lien--footer {
-  color: white;
 }
 
 .section--btn--page {

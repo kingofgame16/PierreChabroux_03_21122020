@@ -67,16 +67,11 @@
     display: flex;
     background: #f9f9f9;
   }
-  
-  #Fonctionnement {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
 
   .titre--fonctionnement {
     font-size: 1.5rem;
     font-weight: 900;
-    margin-left: 3%;
+    margin-left: 1rem;
     margin-top: 50px;
   }
 
@@ -140,8 +135,8 @@
   .resto {
     font-size: 1.5rem;
     font-weight: 900;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding-top: 50px;
 }
   
@@ -221,142 +216,6 @@
     font-size: 1.7rem;
     transition: color 20ms ease-in-out;
     color: black;
-}
-
-//autres menu//
-
-.en-tete {
-  display: inline;
-}
-.en-tete .fa-arrow-left {
-  font-size: 1.7rem;
-  position: absolute;
-  left: 10px;
-  top: 18px;
-}
-
-.carte {
-  width: 375px;
-  margin: auto;
-  background: #f9f9f9;
-  padding-bottom: 20px;
-}
-.carte img {
-  width: 375px;
-  object-fit: cover;
-  height: 300px;
-}
-.menu--titre {
-  display: flex;
-  border-radius: 30px 30px 0px 0px;
-  margin-top: -50px;
-  position: sticky;
-  background: #f9f9f9;
-}
-
-.nom--resto{
-  font-size: 1.7rem;
-  margin: 30px auto;
-  font-family: "Shrikhand", sans-serif;
-}
-
-  .conteneur--entrees {
-    border-bottom: 3px solid #99e2d0;
-    padding-bottom: 3px;
-    font-weight: 100;
-    font-size: 15px;
-    width: 40px;
-    margin-left: 15px;
-    background: #f9f9f9;
-}
-
-.entrees--plat {
-  background: white;
-  margin: 1rem ;
-  padding-left: 5px;
-  border-radius: 10px;
-  box-shadow: 0px 3px 4px lightgrey;
-  border: 0px solid white;
-  cursor: pointer;
-}
-.entrees--plat .plat--titre {
-  font-size: 1.1rem;
-  font-weight: 400;
-  margin-top: 0px;
-  margin-bottom: 0;
-}
-
-.contenu--plat {
-  display: flex;
-  justify-content: space-between;
-  height: 40px;
-}
-
-.plat--long{
-  height: 54px;
-}
-
-.plat--soustitre {
-  font-weight: 100;
-  font-size: 0.9rem;
-  width: 260px;
-  height: 20px;
-  margin-top: 10px;
-}
-
-.entrees--plat:hover .soustitre--long {
-  width: 260px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.plat--prix {
-  margin-top: 10px;
-  margin-right: 2px;
-}
-
-.figcaption--plat {
-  width: 80px;
-  border-radius: 0 10px 10px 0px;
-  margin-top: -20px;
-  background: #99e2d0;
-  animation: reverse 400ms linear both;
-}
-
-.validation--logo {
-  width: 20px;
-  height: 20px;
-  border: 1px solid white;
-  background: white;
-  margin: 17px auto auto auto;
-  border-radius: 100px;
-}
-
-.validation--logo i {
-  color: #99e2d0;
-}
-
-.entrees--plat:hover {
-  display: block;
-  overflow: hidden;
-}
-
-.entrees--plat:not(:hover) {
-  overflow: hidden;
-}
-
-.entrees--plat:hover .figcaption--plat {
-  display: inline-block;
-  animation: box 400ms linear;
-}
-
-.entrees--plat:hover .figcaption--plat .validation--logo i {
-  animation: valid 400ms linear;
-}
-
-.entrees--plat:hover .plat--prix {
-animation: box 400ms linear;
 }
 
 //footer//
