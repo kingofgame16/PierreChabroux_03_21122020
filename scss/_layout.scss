@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 1.2rem;
     padding: 16px;
-    margin: 20px 0 0 0;
+    margin: 0;
     background: #e8e8eb;
     box-shadow: inset 0 5px 6px -4px lightgrey;
     opacity: 0.8;
@@ -21,7 +21,7 @@
     color: black;
   }
   .localisation i {
-    margin-right: 16px;
+    padding-right: 16px;
   }
   
   .section--global {
@@ -39,7 +39,6 @@
     line-height: 30px;
   }
   .section--global .section--second--titre {
-    width: 350px;
     margin: 0 auto;
     text-align: center;
     opacity: 0.6;
@@ -71,8 +70,9 @@
   .titre--fonctionnement {
     font-size: 1.5rem;
     font-weight: 900;
-    margin-left: 1rem;
-    margin-top: 50px;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    margin: 0;
   }
 
   .Fonctionnement--box {
@@ -86,32 +86,44 @@
     font-size: 17px;
     box-shadow: 0px 3px 10px lightgrey;
   }
+
+  .Fonctionnement--box:hover {
+    background-color:rgba(147, 86, 220, 0.1) ;
+    transform: scale(1.015);
+  }
+
   .Fonctionnement--box .Fonctionnement--faText {
     display: flex;
     margin: auto auto auto 20px;
     font-size: 17px;
     font-weight: 500;
   }
+
   .Fonctionnement--box .Fonctionnement--text1 {
     margin-left: 30px;
   }
+
   .Fonctionnement--box .Fonctionnement--text2 {
     margin-left: 25px;
   }
+
   .Fonctionnement--box .Fonctionnement--text3 {
     margin-left: 20px;
   }
+
   .Fonctionnement--box i {
     opacity: 0.6;
   }
+
   .Fonctionnement--box .i--one {
     color: $purple;
     opacity: 1;
   }
+
   .Fonctionnement--box .fa-mobile-alt {
     font-size: 21px;
   }
-  
+
   .Fonctionnement--numero {
     color: white;
     background: $purple;
@@ -122,53 +134,49 @@
     margin-top: 15px;
     margin-left: -26px;
   }
+
   .Fonctionnement--numero .numero1 {
     font-size: 13px;
   }
-  
+
+  .box--fonctionnement {
+    padding: 2rem 1rem;
+}
+
   #restaurant {
-    margin-top: 100px;
     background: #f9f9f9;
-    padding-bottom: 100px;
+    padding: 2rem 1rem;
   }
 
   .resto {
     font-size: 1.5rem;
     font-weight: 900;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-top: 50px;
 }
-  
+
   #box--position {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
-    margin-left: 3%;
-    margin-right: 3%;
   }
   
   .lien--menu {
     margin-top: 30px;
     border-radius: 15px;
   }
-  
+
   .figure--resto {
-    gap: 1rem;
-    width: 350px;
     background: white;
     border-radius: 15px;
     position: relative;
   }
-  
+
   .figure--resto img {
     width: 350px;
     height: 180px;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
   }
-  
+
   .nouveau {
     background: #99e2d0;
     color: green;
@@ -179,7 +187,7 @@
     top: 0;
     right: 10px;
   }
-  
+
   .figcaption--resto {
     display: flex;
     justify-content: space-between;
@@ -226,26 +234,26 @@
     padding: 15px 0px 15px 0px;
     min-width: 375px;
   }
-  
+
   #Footer {
     margin-left: 20px;
     line-height: 12px;
   }
-  
+
   .footer--titre {
     margin-bottom: 30px;
     font-size: 1.3rem;
     font-family: "Shrikhand";
   }
-  
+
   .footer-text i {
     margin-right: 10px;
   }
-  
+
   .fa-hands-helping {
     font-size: 0.7rem;
   }
-  
+
   .lien--footer {
     color: white;
   }

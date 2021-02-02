@@ -383,7 +383,7 @@ header {
   text-align: center;
   font-size: 1.2rem;
   padding: 16px;
-  margin: 20px 0 0 0;
+  margin: 0;
   background: #e8e8eb;
   -webkit-box-shadow: inset 0 5px 6px -4px lightgrey;
           box-shadow: inset 0 5px 6px -4px lightgrey;
@@ -395,7 +395,7 @@ header {
 }
 
 .localisation i {
-  margin-right: 16px;
+  padding-right: 16px;
 }
 
 .section--global {
@@ -420,7 +420,6 @@ header {
 }
 
 .section--global .section--second--titre {
-  width: 350px;
   margin: 0 auto;
   text-align: center;
   opacity: 0.6;
@@ -458,8 +457,9 @@ header {
 .titre--fonctionnement {
   font-size: 1.5rem;
   font-weight: 900;
-  margin-left: 1rem;
-  margin-top: 50px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  margin: 0;
 }
 
 .Fonctionnement--box {
@@ -475,6 +475,12 @@ header {
   font-size: 17px;
   -webkit-box-shadow: 0px 3px 10px lightgrey;
           box-shadow: 0px 3px 10px lightgrey;
+}
+
+.Fonctionnement--box:hover {
+  background-color: rgba(147, 86, 220, 0.1);
+  -webkit-transform: scale(1.015);
+          transform: scale(1.015);
 }
 
 .Fonctionnement--box .Fonctionnement--faText {
@@ -526,18 +532,18 @@ header {
   font-size: 13px;
 }
 
+.box--fonctionnement {
+  padding: 2rem 1rem;
+}
+
 #restaurant {
-  margin-top: 100px;
   background: #f9f9f9;
-  padding-bottom: 100px;
+  padding: 2rem 1rem;
 }
 
 .resto {
   font-size: 1.5rem;
   font-weight: 900;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding-top: 50px;
 }
 
 #box--position {
@@ -549,9 +555,6 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 30px;
-  margin-left: 3%;
-  margin-right: 3%;
 }
 
 .lien--menu {
@@ -560,8 +563,6 @@ header {
 }
 
 .figure--resto {
-  gap: 1rem;
-  width: 350px;
   background: white;
   border-radius: 15px;
   position: relative;
