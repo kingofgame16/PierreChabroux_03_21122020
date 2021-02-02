@@ -377,6 +377,9 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 1rem;
+  position: relative;
+  z-index: 1000;
 }
 
 .localisation {
@@ -668,10 +671,10 @@ footer {
 }
 
 .en-tete .fa-arrow-left {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   position: absolute;
-  left: 10px;
-  top: 18px;
+  left: 2rem;
+  top: 2rem;
 }
 
 .carte {
@@ -728,10 +731,13 @@ footer {
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px 4px lightgrey;
           box-shadow: 0px 3px 4px lightgrey;
+  overflow: hidden;
   border: 0px solid white;
   cursor: pointer;
   min-width: 300px;
   max-width: 450px;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
+          animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
 }
 
 .entrees--plat .plat--titre {
@@ -765,46 +771,53 @@ footer {
 }
 
 .figcaption--plat {
-  width: 0;
-  border-radius: 0 10px 10px 0px;
-  margin-top: -20px;
-  background: #99e2d0;
-  animation: reverse 400ms linear both;
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.figcaption--plat:hover {
+  margin-right: -1rem;
 }
 
 .validation--logo {
-  border: 1px solid white;
-  background: white;
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 100px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .validation--logo i {
   color: #99e2d0;
 }
 
-.entrees--plat:hover {
-  display: block;
-  overflow: hidden;
-}
-
-.entrees--plat:not(:hover) {
-  overflow: hidden;
-}
-
-.entrees--plat:hover .figcaption--plat {
-  display: inline-block;
-  -webkit-animation: box 400ms linear;
-          animation: box 400ms linear;
-}
-
-.entrees--plat:hover .figcaption--plat .validation--logo i {
-  -webkit-animation: valid 400ms linear;
-          animation: valid 400ms linear;
-}
-
-.entrees--plat:hover .plat--prix {
-  -webkit-animation: box 400ms linear;
-          animation: box 400ms linear;
+.validation--logo:hover {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
 }
 
 .section--btn--page {
@@ -1238,14 +1251,6 @@ footer {
 .dessert {
   -webkit-animation: menu 1.6s;
           animation: menu 1.6s;
-}
-
-.plat--prix {
-  animation: reverse 400ms linear both;
-}
-
-.figcaption--plat:hover {
-  animation: reverse 400ms linear both;
 }
 
 @-webkit-keyframes rotation {

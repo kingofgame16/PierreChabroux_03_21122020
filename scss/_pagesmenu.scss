@@ -4,10 +4,10 @@
     display: inline;
 }
 .en-tete .fa-arrow-left {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     position: absolute;
-    left: 10px;
-    top: 18px;
+    left: 2rem;
+    top: 2rem;
 }
 
 .carte {
@@ -55,10 +55,13 @@
     padding:1rem;
     border-radius: 10px;
     box-shadow: 0px 3px 4px lightgrey;
+    overflow: hidden;
     border: 0px solid white;
     cursor: pointer;
     min-width: 300px;
     max-width: 450px;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+
 
 .plat--titre {
     font-size: 1.1rem;
@@ -91,41 +94,36 @@
 }
 
 .figcaption--plat {
-    width: 0;
-    border-radius: 0 10px 10px 0px;
-    margin-top: -20px;
-    background: #99e2d0;
-    animation: reverse 400ms linear both;
+    background-color: #99e2d0;
+    margin: -1rem -5rem -1rem 1rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
+}
+
+.figcaption--plat:hover {
+    margin-right: -1rem;
 }
 
 .validation--logo {
-    border: 1px solid white;
-    background: white;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 100px;
+    transform: rotate(180deg);
+    transition-duration: .5s;
 }
 
 .validation--logo i {
     color: #99e2d0;
 }
-
-.entrees--plat:hover {
-    display: block;
-    overflow: hidden;
+.validation--logo:hover {
+    transform: rotate(0);
 }
 
-.entrees--plat:not(:hover) {
-    overflow: hidden;
-}
 
-.entrees--plat:hover .figcaption--plat {
-    display: inline-block;
-    animation: box 400ms linear;
-}
-
-.entrees--plat:hover .figcaption--plat .validation--logo i {
-    animation: valid 400ms linear;
-}
-
-.entrees--plat:hover .plat--prix {
-    animation: box 400ms linear;
-}
