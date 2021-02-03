@@ -765,6 +765,7 @@ footer {
 }
 
 .plat--prix {
+  font-weight: 700;
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin: 0;
@@ -1498,9 +1499,6 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .figcaption--plat {
-    height: 80px;
   }
   .titre--fonctionnement {
     text-align: center;
