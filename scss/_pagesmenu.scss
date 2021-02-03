@@ -41,7 +41,7 @@
     border-bottom: 3px solid #99e2d0;
     padding-bottom: 3px;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 1.17rem;
     width: 40px;
     margin-left: 15px;
     background: #f9f9f9;
@@ -86,6 +86,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    min-width: 16rem;
 }
 
 .plat--prix {
@@ -116,7 +117,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(180deg);
+    transform: rotate(359deg);
     transition-duration: .5s;
 }
 
