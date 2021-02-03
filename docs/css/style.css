@@ -734,8 +734,8 @@ footer {
   overflow: hidden;
   border: 0px solid white;
   cursor: pointer;
-  min-width: 300px;
-  max-width: 450px;
+  min-width: 310px;
+  max-width: 340px;
   -webkit-animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
           animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
 }
@@ -1395,50 +1395,6 @@ footer {
   }
 }
 
-@-webkit-keyframes reverse {
-  from {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(72px);
-            transform: translateX(72px);
-  }
-}
-
-@keyframes reverse {
-  from {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(72px);
-            transform: translateX(72px);
-  }
-}
-
-@-webkit-keyframes valid {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes valid {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
 @-webkit-keyframes menu {
   0% {
     opacity: 0;
@@ -1532,10 +1488,16 @@ footer {
   .carte img {
     width: 100%;
   }
+  .conteneur--entrees {
+    margin-left: 15rem;
+  }
   .box--plat {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .figcaption--plat {
     height: 80px;

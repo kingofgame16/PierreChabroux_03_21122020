@@ -57,8 +57,14 @@
         width: 100%;
     }
 
+    .conteneur--entrees {
+        margin-left: 15rem;
+    }
+
+
     .box--plat {
         display: flex;
+        justify-content: center;
     }
 
     .figcaption--plat {
