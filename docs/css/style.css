@@ -775,7 +775,6 @@ footer {
 .figcaption--plat {
   background-color: #99e2d0;
   margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
