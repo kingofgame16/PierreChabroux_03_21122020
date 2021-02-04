@@ -58,7 +58,7 @@
     overflow: hidden;
     border: 0px solid white;
     cursor: pointer;
-    min-width: 310px;
+    min-width: 340px;
     max-width: 340px;
     animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
 
@@ -86,7 +86,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    min-width: 16rem;
+    flex: 1;
 }
 
 .plat--prix {
@@ -98,6 +98,7 @@
 .figcaption--plat {
     background-color: #99e2d0;
     margin: -1rem -5rem -1rem 1rem;
+    width: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
