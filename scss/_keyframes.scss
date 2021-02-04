@@ -54,15 +54,6 @@
     }
 }
 
-@keyframes box {
-    from {
-        transform: translateX(72px);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
 @keyframes menu {
     0% {
         opacity: 0;

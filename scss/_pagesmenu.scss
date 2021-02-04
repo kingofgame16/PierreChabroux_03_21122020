@@ -60,7 +60,6 @@
     cursor: pointer;
     min-width: 340px;
     max-width: 340px;
-    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
 
 
 .plat--titre {
@@ -105,10 +104,6 @@
     transition-duration: .5s;
 }
 
-.figcaption--plat:hover {
-    margin-right: -1rem;
-}
-
 .validation--logo {
     height: 1.6rem;
     width: 1.6rem;
@@ -127,5 +122,4 @@
 .validation--logo:hover {
     transform: rotate(0);
 }
-
 

@@ -736,8 +736,6 @@ footer {
   cursor: pointer;
   min-width: 340px;
   max-width: 340px;
-  -webkit-animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
-          animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
 }
 
 .entrees--plat .plat--titre {
@@ -789,10 +787,6 @@ footer {
           justify-content: center;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
-}
-
-.figcaption--plat:hover {
-  margin-right: -1rem;
 }
 
 .validation--logo {
@@ -1374,28 +1368,6 @@ footer {
   }
   100% {
     opacity: 01;
-  }
-}
-
-@-webkit-keyframes box {
-  from {
-    -webkit-transform: translateX(72px);
-            transform: translateX(72px);
-  }
-  to {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@keyframes box {
-  from {
-    -webkit-transform: translateX(72px);
-            transform: translateX(72px);
-  }
-  to {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
   }
 }
 
