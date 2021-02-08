@@ -747,6 +747,10 @@ footer {
   white-space: nowrap;
 }
 
+.entrees--plat:hover .figcaption--plat {
+  margin-right: -1rem;
+}
+
 .plat--soustitre {
   font-weight: 100;
   font-size: 0.9rem;
@@ -785,10 +789,8 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: -webkit-transform 1000ms linear;
-  transition: -webkit-transform 1000ms linear;
-  transition: transform 1000ms linear;
-  transition: transform 1000ms linear, -webkit-transform 1000ms linear;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .figcaption--plat:hover {

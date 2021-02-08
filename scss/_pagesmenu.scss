@@ -70,6 +70,10 @@
     overflow: hidden;
     white-space: nowrap;
     }
+
+    &:hover .figcaption--plat {
+        margin-right: -1rem;
+    }
 }
 
 .plat--soustitre {
@@ -101,7 +105,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 1000ms linear;
+    transition-duration: .5s;
 }
 
 .figcaption--plat:hover {
